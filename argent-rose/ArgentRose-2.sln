@@ -1,8 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.6.11822.322
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArgentRose", "ArgentRose\ArgentRose.csproj", "{21CB8D63-E2C9-47B9-9EDA-89D1419E3314}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArgentRose.Tests", "ArgentRose.Tests\ArgentRose.Tests.csproj", "{3D1740AF-D614-4E84-B64F-AF6B65D9FCCA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{44E6C700-36CB-4BA3-88F2-43A3FFE8706D}"
+	ProjectSection(SolutionItems) = preProject
+		redundant-examples-argent-rose-super-lite.md = redundant-examples-argent-rose-super-lite.md
+		requirement-specifications-argent-rose-super-lite.md = requirement-specifications-argent-rose-super-lite.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +27,11 @@ Global
 		{3D1740AF-D614-4E84-B64F-AF6B65D9FCCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D1740AF-D614-4E84-B64F-AF6B65D9FCCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D1740AF-D614-4E84-B64F-AF6B65D9FCCA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B54A6CED-04E8-4BF3-B2F6-B36C50210CF8}
 	EndGlobalSection
 EndGlobal
